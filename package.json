@@ -1,0 +1,43 @@
+{
+  "name": "skpkg",
+  "version": "1.0.0",
+  "description": "Share Claude Code skills, commands, and agents via GitHub Gists",
+  "main": "dist/cli.js",
+  "bin": {
+    "skpkg": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skills",
+    "share",
+    "gist"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tviles/skpkg.git"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.0.0",
+    "commander": "^13.0.0",
+    "gray-matter": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ]
+}
