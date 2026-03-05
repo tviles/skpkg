@@ -1,5 +1,5 @@
 {
-  "name": "skpkg",
+  "name": "@modelkit/skpkg",
   "version": "1.0.0",
   "description": "Share Claude Code skills, commands, and agents via GitHub Gists",
   "main": "dist/cli.js",
